@@ -107,6 +107,6 @@ class fmDateTime {
   getYear(date) {
     return date.getFullYear();
   }
-
 }
 
+export default fmDateTime;
