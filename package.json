@@ -1,6 +1,6 @@
 {
   "name": "fm_date",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Format date-time easily",
   "main": "index.js",
   "scripts": {
