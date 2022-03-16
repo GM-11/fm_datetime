@@ -1,4 +1,4 @@
-class fmDateTime {
+class fmDate {
   months() {
     return [
       "January",
@@ -109,4 +109,4 @@ class fmDateTime {
   }
 }
 
-export default fmDateTime;
+export default fmDate;
