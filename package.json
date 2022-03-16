@@ -1,0 +1,22 @@
+{
+  "name": "fm_datetime",
+  "version": "1.0.0",
+  "description": "Format date-time easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GM-11/fm_datetime.git"
+  },
+  "keywords": [
+    "fm_datetime"
+  ],
+  "author": "GM-11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GM-11/fm_datetime/issues"
+  },
+  "homepage": "https://github.com/GM-11/fm_datetime#readme"
+}
