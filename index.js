@@ -35,7 +35,7 @@ class fmDate {
 
   formatDate(date, format) {
     const DATE = date.getDate();
-    const MONTH = date.getMonth();
+    const MONTH = date.getMonth() + 1;
     const YEAR = date.getFullYear();
 
     let splitted;
@@ -56,13 +56,13 @@ class fmDate {
         splitted[i] = `${DATE}`;
       }
 
-      {
+      
         if (splitted[i] === "month") {
           splitted[i] = `${this.months()[MONTH - 1]}`;
         } else if (splitted[i].includes("m")) {
           splitted[i] = `${MONTH}`;
         }
-      }
+      
 
       if (splitted[i].includes("y")) {
         splitted[i] = `${YEAR}`;
@@ -109,4 +109,4 @@ class fmDate {
   }
 }
 
-module.exports = fmDate
+module.exports = fmDate;
