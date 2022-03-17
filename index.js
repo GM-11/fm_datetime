@@ -58,7 +58,7 @@ class fmDate {
 
       {
         if (splitted[i] === "month") {
-          splitted[i] = `${this.Months()[MONTH - 1]}`;
+          splitted[i] = `${this.months()[MONTH - 1]}`;
         } else if (splitted[i].includes("m")) {
           splitted[i] = `${MONTH}`;
         }
@@ -109,4 +109,4 @@ class fmDate {
   }
 }
 
-module.exports =  fmDate;
+module.exports = fmDate
