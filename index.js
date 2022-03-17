@@ -109,4 +109,4 @@ class fmDate {
   }
 }
 
-export default fmDate;
+module.exports =  fmDate;

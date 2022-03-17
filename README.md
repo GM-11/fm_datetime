@@ -1,8 +1,15 @@
-"# fm_date" 
+<h2> fm_date </h2>
 This package is for formatting date according to specefic needs
 
+To start working, import and make an instance of the fm_date module
+```
+const fmDate = require('fm_date');
 
-Methods:-
+const fm = new fmDate();
+
+```
+
+<h3>Methods</h3>
 
 |   Method                    |         Arguments           |         Functionality           |
 | --------------------------- | --------------------------- | --------------------------      |
