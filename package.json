@@ -11,7 +11,12 @@
     "url": "git+https://github.com/GM-11/fm_datetime.git"
   },
   "keywords": [
-    "fm_datetime"
+    "fm_datetime",
+    "fm_date",
+    "date",
+    "time",
+    "format date",
+    "format date-time"
   ],
   "author": "GM-11",
   "license": "ISC",
